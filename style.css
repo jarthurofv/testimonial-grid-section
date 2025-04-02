@@ -237,3 +237,15 @@ body {
     margin: 34rem auto;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 768px;
+    width: 100%;
+    margin: 40rem auto;
+  }
+}
